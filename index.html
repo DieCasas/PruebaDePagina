@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Entrega final</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    
+</head>
+
+<body id="gridArea">
+
+    <header > <!-- icono Xbox 
+        <nav class="border">
+            <h1> ICOPAR </h1>
+            <img src="imagenes/icopar.jpeg" width="50px" alt="">
+            <h2> Servicios </h2>
+            <h2> Acerca de</h2>
+            <h2> Profesionales</h2>
+            <h2> Contacto</h2>
+        </nav> -->
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand textoTitulo" href="#">Icopar</a>
+              <img src="imagenes/icopar.jpeg" class="imagenHeader" alt="">
+              <a class="navbar-brand" href="#"> Servicios</a>
+              <a class="navbar-brand" href="#"> Acerca De</a>  
+                <a class="navbar-brand" href="#"> Profesionales</a>
+                <a class="navbar-brand" href="#"> Contacto</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+      </header>
+    <main>
+      
+        <section id="presentacion">
+            <article>
+                <h2 class="textoPresentacion" data-aos="zoom-in-left"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione, natus dicta, saepe culpa ipsam reprehenderit odit, in suscipit fugit debitis fuga praesentium asperiores nisi. Dicta aspernatur perferendis veritatis impedit!</h2>
+                <img src="imagenes/img-de-prueba.jpg" width="100px" alt="" class="imagenPresentacion" data-aos="zoom-in-right">
+            </article>
+        </section>
+
+        <div data-aos="flip-down">
+        <section id="servicios">
+            <h2 class="tituloServicios" data-aos="fade-up">Herramientas de trabajo</h2>
+            <section class="herramientas">
+                <div data-aos="fade-up">
+                    <h4>Terapia ocupacional</h4>
+                    <p class="textoServicios"> La terapia ocupacional y sus profesionales, los terapeutas ocupacionales, ayudan a las personas a lo largo de sus vidas a participar en las actividades y tareas que quieren y necesitan realizar por medio de la utilización terapéutica de actividades diarias.</p></div>
+                <div data-aos="fade-up">
+                    <h4>Abordaje temprano</h4>
+                    <p class="textoServicios">Es el término que se usa para describir los servicios y ayudas disponibles para los bebés y niños pequeños, con retrasos y discapacidades del desarrollo, y sus familias. Puede incluir terapia del habla, terapia física y otros tipos de servicios según las necesidades del niño y la familia</p>
+                </div>
+                <div data-aos="fade-up">
+                    <h4>Integracion sensorial</h4>
+                    <p class="textoServicios">La integración sensorial no sólo nos permite responder apropiadamente a las sensaciones entrantes, sino que también guía la manera en la que nosotros actuamos en el medio. Por ejemplo, el planteamiento motor (o praxis) es una habilidad importante que depende de la eficiencia de la integración sensorial.</p>
+                </div>
+            </section>
+        </section>
+        </div>
+
+
+        <section id="acercaDe">
+            <h2 class="tituloAcercaDe"> Acerca De</h2>
+            <section class="estructuraAcercaDe"> <!-- Agregarle un link a la imagen para que puedan ingresar a la historia -->
+                <div class="estructuraDiv">
+                    <h4>Terapia ocupacional</h4>
+                    <p> La terapia ocupacional y sus profesionales, los terapeutas ocupacionales, ayudan a las personas a lo largo de sus vidas a participar en las actividades y tareas que quieren y necesitan realizar por medio de la utilización terapéutica de actividades diarias.</p>
+                </div>
+                <div class="estructuraDiv">
+                    <h4>Abordaje temprano</h4>
+                    <p>Es el término que se usa para describir los servicios y ayudas disponibles para los bebés y niños pequeños, con retrasos y discapacidades del desarrollo, y sus familias. Puede incluir terapia del habla, terapia física y otros tipos de servicios según las necesidades del niño y la familia</p>
+                </div>
+                <div>
+                    <img src="imagenes/prueba.jpg" data-aos="zoom-in" alt="">
+                </div>
+            </section>
+        </section>
+
+
+        <section id="profesionales">
+            <h2 class="tituloProfesionales"> Profesionales </h2>
+            <section class="medirCarrusel" data-aos="zoom-in"> <!-- Carrusel el cual estaria bueno poder juntar con el texto y que vayan rotando -->
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="imagenes/img-profesional.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagenes/img-profesional.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/img-profesional.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </section>
+        
+        <section id="contacto">
+            <h2 class="tituloContacto"> Contacto </h2>
+            <section class="estructuraContacto"> <!-- Contactos. Mejorar los iconos para que queden bien alineados y mas lindos -->
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.9774803330087!2d-57.97643121184873!3d-34.90870999897491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7bafd6591f1%3A0x20c77e7aa940d3e0!2sBIM%2C%20C.%2033%20993%2C%20B1902%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1651180464732!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="fade-left"></iframe>
+                </div>
+                <div class="mediosDeContacto"> 
+                    <div>
+                        <img src="imagenes/logo-instagram.jfif" class="logosContacto" data-aos="fade-right" alt="">
+                        <p data-aos="fade-right">Seguinos en instagram</p>
+                    </div>
+                    <div>
+                        <img src="imagenes/logo-whatsapp.jfif" class="logosContacto" data-aos="fade-right" alt="">
+                        <p data-aos="fade-right">Contactanos por WhatsApp</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+
+    </main>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+		</script>
+
+
+    <footer> <!-- Footer. Cambiarlo? Hacerlo mas grande? -->
+        <p> Diseñado por dcas. Derechos reservados</p>
+    </footer>
+</body>
+
+
+</html>
